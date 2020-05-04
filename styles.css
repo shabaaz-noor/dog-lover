@@ -1,0 +1,140 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+h1,h2,h3,h4,h5,h5{
+  font-family: "Montserrat-bold";
+}
+p{
+  color: grey;
+}
+.big-heading{
+  font-family: "Montserrat-black";
+ font-size: 4rem;
+ line-height: 1.1;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title{
+  /* background-color: #ff4C68; */
+    background-image: linear-gradient(to right, rgba(300,0,1,1), rgba(380,0,0,0));
+  color: #fff;
+}
+/* #grad1 {
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(300,0,1,1), rgba(380,0,0,0)); /* Standard syntax (must be last) */
+} */
+
+.container-fluid{
+  padding: 2% 10% 2%;
+}
+.row{
+  padding: 30px 50px 30px 50px;
+}
+
+/* navigation bar */
+.navbar{
+  padding-bottom:  4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem
+  font-family:"Montserrat-light";
+}
+  /* donload buttons */
+  .download-button{
+    margin: 5% 3% 5% 0;
+  }
+  /* title image */
+.img-fluid{
+  width: 75%;
+  transform: rotate(25deg);
+}
+/* features section */
+#features{
+  padding: 0px 10px;
+}
+.feature-title{
+font-size: 1.5rem;
+}
+.feature-box{
+  padding: 2%;
+}
+.icon{
+  color: #ff4C68;
+  margin: 1rem;
+}
+.icon:hover{
+  color: crimson;
+}
+#testimonials{
+/* background-color: #ff4C68; */
+  background-image: linear-gradient(-90deg, red, PaleVioletRed);
+
+color: #fff;
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+
+}
+ .testimonial-text{
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-image: linear-gradient(-90deg, red, PaleVioletRed);
+  /* background-color: #ff4C68; */
+  padding-bottom: 3%;
+  }
+.press-logo{
+  width: 18%;
+  margin: 30px 30px 60px;
+}
+/* pricing section */
+#pricing {
+  padding: 6% 8% 4% 3%;
+
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding; 3% 2%;
+}
+@@media (max-width: 1200px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(-35deg);
+  }
+}
+#cta{
+  background-color: #ff4C68;
+  color: #fff;
+  padding: 75px 50px;
+
+}
+#footer{
+  padding: 74px 50px;
+}
+.social-icon{
+  margin: 20px 10px;
+}
